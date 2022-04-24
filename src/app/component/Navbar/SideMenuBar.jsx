@@ -6,6 +6,7 @@ import {
   MenuItem,
 } from "react-pro-sidebar";
 import "react-pro-sidebar/dist/css/styles.css";
+import { Link } from "react-router-dom";
 import { FaTools, FaPowerOff } from "react-icons/fa";
 import { GoDashboard } from "react-icons/go";
 import { FiSettings } from "react-icons/fi";
@@ -17,41 +18,18 @@ const SideMenuBar = () => {
       <SidebarHeader>
         {
           <>
-            <div
-              style={{
-                padding: "24px",
-                textTransform: "uppercase",
-                fontWeight: "bold",
-                fontSize: 14,
-                letterSpacing: "1px",
-                overflow: "hidden",
-                textOverflow: "ellipsis",
-                whiteSpace: "nowrap",
-              }}
-            >
-              Welcome, Resident
-            </div>
-            <div
-              style={{
-                paddingLeft: "24px",
-                paddingBottom: "24px",
-                textTransform: "uppercase",
-                fontWeight: "bold",
-                fontSize: 14,
-                letterSpacing: "1px",
-                overflow: "hidden",
-                textOverflow: "ellipsis",
-                whiteSpace: "nowrap",
-              }}
-            >
-              Apartment: 222
-            </div>
+            <div className="sideMenuBarHeader">Prathima Gopal</div>
+            <div className="sideMenuBarHeader">Apartment# 222</div>
           </>
         }
       </SidebarHeader>
       <Menu iconShape="square">
-        <MenuItem icon={<GoDashboard />}>Dashboard</MenuItem>
-        <MenuItem icon={<FaTools />}>Service Request</MenuItem>
+        <MenuItem icon={<GoDashboard />}>
+          <Link to="/resident/dashboard">Dashboard</Link>
+        </MenuItem>
+        <MenuItem icon={<FaTools />}>
+          <Link to="/resident/service">Service Request</Link>
+        </MenuItem>
         <MenuItem icon={<FiSettings />}>Settings</MenuItem>
         <MenuItem icon={<IoIosNotifications />}>Notifications</MenuItem>
         <MenuItem icon={<FaPowerOff />}>Logout</MenuItem>

@@ -1,20 +1,18 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import SideMenuBar from "../component/Navbar/SideMenuBar";
+import ResidentDashboardGrid from "../component/resident/ResidentDashboardGrid";
+import ServiceRequest from "../component/resident/ServiceRequest";
 import "../css/resident.css";
 
 export default function ResidentDashboard() {
   return (
-    <div style={{ display: "flex" }}>
+    <div className="container">
       <SideMenuBar />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        Resident Dashboard
-      </div>
+      <Routes>
+        <Route exact path="/dashboard" element={<ResidentDashboardGrid />} />
+        <Route exact path="/service" element={<ServiceRequest />} />
+      </Routes>
     </div>
   );
 }

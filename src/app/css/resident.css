@@ -1,6 +1,8 @@
-.title {
-  background-color: red;
-  color: white;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 32px;
+.container {
+  display: flex;
+}
+
+.residentDashboardGrid {
+  flex: 4;
+  padding: 20px;
 }
