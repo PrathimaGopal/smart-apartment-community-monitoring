@@ -14,7 +14,7 @@ import { IoIosNotifications } from "react-icons/io";
 
 const SideMenuBar = () => {
   return (
-    <ProSidebar style={{ height: "100vh" }}>
+    <ProSidebar style={{ height: "calc(100vh - 80px)" }}>
       <SidebarHeader>
         {
           <>
