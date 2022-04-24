@@ -5,10 +5,11 @@ import styled from "styled-components";
 export const Nav = styled.nav`
   background: #000;
   height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem calc((80vw - 1000px) / 2);
-  z-index: 10;
   /* Third Nav */
   /* justify-content: flex-start; */
 `;

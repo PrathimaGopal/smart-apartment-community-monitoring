@@ -6,8 +6,8 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import FAQ from "./pages/Faq";
 import Login from "./pages/Login";
-import Resident from "./pages/ResidentDashboard";
-import Admin from "./pages/AdminDashboard";
+import ResidentDashboard from "./pages/ResidentDashboard";
+import AdminDashboard from "./pages/AdminDashboard";
 
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/resident" element={<Resident />} />
-        <Route path="/admin" element={<Admin />} />
+        <Route exact path="/resident/*" element={<ResidentDashboard />} />
+        <Route path="/admin" element={<AdminDashboard />} />
       </Routes>
     </>
   );

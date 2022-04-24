@@ -7,42 +7,20 @@
   padding: 0;
 }
 
-.title {
-  font-family: Lato, Helvetica, Arial, sans-serif;
-  color: white;
-  font-size: 30px;
-  font-weight: 10000;
-  line-height: 2.6;
-  letter-spacing: 0.04em;
-  margin: auto;
-  display: flex;
-  align-items: flex-start;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.tabs {
-  font-family: Lato, Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  padding: 2em;
-}
-
 a:hover {
-  color: #bea6a0;
+  color: #c5fcee;
 }
 
-.nav {
-  background-color: #1c4e80;
-}
-
-.content {
-  background-color: white;
+.sideMenuBarHeader {
+  padding-left: 30px;
+  padding-top: 10px;
+  text-align: left;
+  font-family: "Sora", sans-serif;
+  font-weight: bold;
+  font-size: 14;
+  color: #c5fcee;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
