@@ -5,4 +5,82 @@
 .residentDashboardGrid {
   flex: 4;
   padding: 20px;
+  margin-top: 10px;
+}
+
+.switchRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.switchRow2 {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.switchItem {
+  display: flex;
+  margin: 0px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.97);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.97);
+}
+
+.switchTitle {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.widget {
+  padding-left: 80px;
+}
+
+.switchGroup {
+  width: 96%;
+  align-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 28px;
+  padding: 25px;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.97);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.97);
+}
+
+.switchGroupTitle {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: table;
+  margin: 0 auto;
+}
+
+.slideItem {
+  display: flex;
+  flex: 1;
+  margin: 0px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.97);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.97);
+}
+
+.videoItem {
+  flex: 1;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.97);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.97);
+}
+
+.videoPlayerTitle {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: table;
+  margin: 0 auto;
 }
