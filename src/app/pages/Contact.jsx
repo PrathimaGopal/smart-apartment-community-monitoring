@@ -8,7 +8,6 @@ export default function Contact() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "90vh",
       }}
     >
       Contact Us

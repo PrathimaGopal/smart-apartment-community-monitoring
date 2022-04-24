@@ -8,7 +8,6 @@ export default function FAQ() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "90vh",
       }}
     >
       FAQ

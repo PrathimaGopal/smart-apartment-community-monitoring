@@ -8,7 +8,6 @@ export default function AdminDashboard() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "90vh",
       }}
     >
       Admin Dashboard
